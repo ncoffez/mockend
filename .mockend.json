@@ -59,7 +59,7 @@
     "avatar": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
-    "type": "string":["mock"],
+    "type": {"string":["mock"]},
     "elo": {
       "int": {
         "min": 950,
