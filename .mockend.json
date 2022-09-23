@@ -1,5 +1,5 @@
 {
-  "Users": {
+  "User": {
     "id": { "regexp": "[0-9a-Z]{28}" },
     "name": {
       "string": [
