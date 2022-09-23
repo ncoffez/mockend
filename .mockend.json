@@ -1,5 +1,5 @@
 {
-  "User": {
+  "Users": {
     "id": {"regexp": "[0-9a-Z]{28}"},
     "name": "string": ["Luca Wenger", "Marlis Blum", "Marianne Lüthi", "Harry Schär", "Markus Mettler", "Dominique Thommen", "Raymond Bieri", "Bernard Gloor", "Karl Rey", "Rudolf Maurer", "Irene Braun", "Serge Kaufmann", "Paul Meyer", "Christoph Schäfer", "Karin Wettstein", "Charles Beck", "Catherine Friedli", "Esther Thommen", "Jean-Jacques Stadelmann", "Pia Wehrli", "Arthur Tobler", "Florence Kuhn", "Rolf Eichenberger", "Liliane Egli", "Charlotte Hermann", "Carmen Bernasconi", "Erica Bättig", "Claudio Giger", "Claudia Leu", "Anita Kuhn", "Theodor Gut", "Bernadette Felder", "Elisabeth Forster", "Pierre-André Schweizer", "Hanna Müller", "Dieter Berger", "Reto Mayer", "Alexander Beck", "Hansueli Hermann", "René Sutter", "Monique Blum", "Oskar Hofmann", "Edwin Gfeller", "Monika Haas", "Florence Blum", "Christa Schaller", "Laurent Winkler", "Giorgio Huber", "Hans Zollinger", "Emil Iten"]
     "courts": [
