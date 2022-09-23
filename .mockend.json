@@ -5,7 +5,7 @@
     "courts": [
         {
             "id": "regexp": "[0-9a-Z]{20}",
-            "name": "TST Fitness - STB Trainingszentrums AG",
+            "name": ["Squash Court", "TST Fitness", "Sportcenter Flamingo","Wit's End"] ,
             "city": ["Bern", "Ostermundigen", "Kirchlindach", "Kehrsatz"]
         }{1-5}
     ],
@@ -31,4 +31,5 @@
         "max": 150
       },
     }
+}
 }
