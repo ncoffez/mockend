@@ -31,49 +31,35 @@
 }
 
 {
-    "id": {
-      "regexp": "[0-9a-Z]{28}
-    },
+    "id": {"regexp": "[0-9a-Z]{28}"},
     "name": "string": ["Luca Wenger", "Marlis Blum", "Marianne Lüthi", "Harry Schär", "Markus Mettler", "Dominique Thommen", "Raymond Bieri", "Bernard Gloor", "Karl Rey", "Rudolf Maurer", "Irene Braun", "Serge Kaufmann", "Paul Meyer", "Christoph Schäfer", "Karin Wettstein", "Charles Beck", "Catherine Friedli", "Esther Thommen", "Jean-Jacques Stadelmann", "Pia Wehrli", "Arthur Tobler", "Florence Kuhn", "Rolf Eichenberger", "Liliane Egli", "Charlotte Hermann", "Carmen Bernasconi", "Erica Bättig", "Claudio Giger", "Claudia Leu", "Anita Kuhn", "Theodor Gut", "Bernadette Felder", "Elisabeth Forster", "Pierre-André Schweizer", "Hanna Müller", "Dieter Berger", "Reto Mayer", "Alexander Beck", "Hansueli Hermann", "René Sutter", "Monique Blum", "Oskar Hofmann", "Edwin Gfeller", "Monika Haas", "Florence Blum", "Christa Schaller", "Laurent Winkler", "Giorgio Huber", "Hans Zollinger", "Emil Iten"]
     "courts": [
         {
-            "id": "AXLBJQflSHAMz9OpSqUC",
+            "id": "regexp": "[0-9a-Z]{20}",
             "name": "TST Fitness - STB Trainingszentrums AG",
-            "city": "Bern"
-        },
-        {
-            "id": "ClftUGPKOsxB6HlqIpQK",
-            "name": "Sportcenter Flamingo",
-            "city": "Ostermundigen"
-        },
-        {
-            "id": "F2O84yzBPfBGIRZqWHQ1",
-            "name": "oro sport Thalmatt",
-            "city": "Kirchlindach"
-        },
-        {
-            "id": "OddDGnMk8t8GPIc1pCrK",
-            "city": "Kehrsatz",
-            "name": "Squash Center Kehrsatz"
-        },
-        {
-            "id": "SQfP0aPYHMh7yIEcCguO",
-            "city": "Kehrsatz",
-            "name": "Sportcenter Kehrsatz"
-        },
-        {
-            "id": "TzyRHO8bja3h4VskRH7d",
-            "city": "Zürich",
-            "name": "Wit's end"
-        }
+            "city": ["Bern", "Ostermundigen", "Kirchlindach", "Kehrsatz"]
+        }{1-5}
     ],
-    "email": "ncoffez@gmail.com",
-    "avatar": "https://lh3.googleusercontent.com/a-/AFdZucoYSwfL38Mv5BK-rLeos3jvfHNrXzeMS8lz5HhVl04=s96-c",
-    "type": "user",
-    "elo": 1315,
+    "email": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}",
+    "avatar": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}",
+    "type": "mock",
+    "elo": {
+      "int": {
+        "min": 950,
+        "max": 1800
+      },
         "played":{
-        "win": 53,
-        "draw": 3,
-        "loss": 50
+        "win": "int": {
+        "min": 5,
+        "max": 150
+      },
+        "draw": "int": {
+        "min": 0,
+        "max": 15
+      },
+        "loss": "int": {
+        "min": 5,
+        "max": 150
+      },
     }
 },
