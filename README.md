@@ -8,4 +8,4 @@ https://mockend.com/ncoffez/mockend/users
 https://mockend.com/ncoffez/mockend/games
 
 # Documentation
-[https://docs.mockend.com/]
+https://docs.mockend.com/
